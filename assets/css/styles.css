@@ -1,0 +1,123 @@
+body{background-color:#FFF4F4;
+width:1800px;
+height:1000px;}
+*{margin:0;}
+
+.space{width:510px;
+height:220px;
+z-index:1111;
+position:absolute;
+left:680px;
+  top:460px;
+  border:solid white 10px;
+}
+.name{
+  font-family: 'Chivo', sans-serif;
+  font-size:42pt;
+  position:absolute;
+  color:white;
+  left:360px;
+  bottom:0px;
+}
+
+.name-out{
+  width:780px;
+  height:200px;
+  position:absolute;
+  top:-20px;
+  left:1200px;
+  border:solid white 10px;
+  background-color:#FFF4F4;
+  z-index:10;
+}
+.name-out:hover{
+background-color:#FFD4D4;}
+
+.research{
+  font-family: 'Chivo', sans-serif;
+  font-size:42pt;
+  position:absolute;
+  color:white;
+  left:130px;
+  bottom:0px;
+}
+
+.research-out{
+ width:300px;
+  height:200px;
+ position:absolute;
+  top:-20px;
+  left:888px;;
+  border:solid white 10px;
+  z-index:10;
+   background-color:#FFF4F4;
+}
+.research-out:hover{
+background-color:#FFD4D4;}
+
+.web{
+  font-family: 'Chivo', sans-serif;
+  font-size:42pt;
+  position:absolute;
+  color:white;
+  top:400px;
+  left:690px;
+}
+
+.web-out{
+ width:1200px;
+ height:700px;
+ position:absolute;
+  left:-10px;
+  top:-20px;
+  border:solid white 10px;
+   background-color:#FFF4F4;
+  z-index:5;
+}
+.web-out:hover{
+background-color:#FFD4D4;
+z-index:-999;}
+
+.graphic{
+  font-family: 'Chivo', sans-serif;
+  font-size:42pt;
+  position:absolute;
+  color:white;
+  right:100px;
+}
+
+.graphic-out{
+ width:1300px;
+ height:500px;
+ position:absolute;
+  left:680px;
+  top:460px;
+  border:solid white 10px;
+  background-color:#FFF4F4;
+  z-index:5;
+}
+.graphic-out:hover{
+background-color:#FFD4D4;
+z-index:-999;}
+
+
+.art{
+  font-family: 'Chivo', sans-serif;
+  font-size:42pt;
+  position:absolute;
+  color:white;
+  left:440px;
+  top:690px;
+}
+
+.art-out{
+ width:1980px;
+ height:970px;
+ position:absolute;
+  top:-10px;
+  border:solid white 10px;
+z-index:0;
+}
+.art-out:hover{
+background-color:#FFD4D4;
+z-index:-10;}
