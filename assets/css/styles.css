@@ -1,4 +1,4 @@
-body{background-color:#FFF4F4;}
+body{background-color:#FFEAEA;}
 *{margin:0;}
 
 .space{width:28vw;
@@ -20,6 +20,7 @@ border:solid white 0.5vw;
 }
 .arthover:hover{
 background-color:#FFD4D4;}
+
 .hovercolor{background-color:#FFD4D4;}
 
 .name{
@@ -38,7 +39,7 @@ background-color:#FFD4D4;}
   top:-2vh;
   left:62.5vw;
   border:solid white 0.5vw;
-  background-color:#FFF4F4;
+  background-color:#FFEAEA;
   z-index:10;
 }
 .name-out:hover{
@@ -61,7 +62,7 @@ background-color:#FFD4D4;}
   left:48vw;
   border:solid white 0.5vw;
   z-index:10;
-   background-color:#FFF4F4;
+   background-color:#FFEAEA;
 }
 .research-out:hover{
 background-color:#FFD4D4;}
@@ -82,7 +83,7 @@ background-color:#FFD4D4;}
   left:-1vw;
   top:-2vh;
   border:solid white 0.5vw;
-   background-color:#FFF4F4;
+   background-color:#FFEAEA;
   z-index:5;
 }
 .web-out:hover{
@@ -104,7 +105,7 @@ z-index:-999;}
   left:34vw;
   top:46vh;
   border:solid white 0.5vw;
-  background-color:#FFF4F4;
+  background-color:#FFEAEA;
   z-index:5;
 }
 .graphic-out:hover{
