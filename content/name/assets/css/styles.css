@@ -62,7 +62,7 @@ background-color:#B7EDFF;}
   	left:28vw;
 }
 
-.pdflink:hover{color:black;}
+.pdflink:hover{color:black; cursor: pointer;}
 
 .language{
 	width:40vw;
@@ -76,8 +76,8 @@ background-color:#B7EDFF;}
   	left:28vw;
 }
 
-.EN:hover{color:black;}
-.CN:hover{color:black;}
+.EN:hover{color:black; cursor: pointer;}
+.CN:hover{color:black; cursor: pointer;}
 
 .cn{width:50vw;
 	position:absolute;
