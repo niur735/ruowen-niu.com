@@ -45,11 +45,11 @@ background-color:#D3DA4C;}
 .text{
     width:58vw;
     font-family: 'Chivo', sans-serif;
-    font-size:1.2vw;
+    font-size:1.4vw;
     line-height: 40px;
     position: absolute;
     left:3vw;
-    top:2vh; 
+    top:90vh; 
     color:white;
 }
 

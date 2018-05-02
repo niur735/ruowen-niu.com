@@ -1,0 +1,77 @@
+body{ background-color:#FFE390;}
+
+.homepage{
+  font-family: 'Chivo', sans-serif;
+  font-size:3.2vw;
+  position:absolute;
+  color:white;
+  right:1vw;
+  bottom:0px;
+}
+
+.homepage-out{
+  width:20vw;
+  height:10vh;
+  position:absolute;
+  top:-2vh;
+  left:-2vw;
+  border:solid white 0.5vw;
+  z-index:111;
+}
+.homepage-out:hover{
+background-color:#FFCA29;}
+
+.list{ width:70vw;
+  height:45vh;
+  position:absolute;
+  top:-2vh;
+  right:-2vw;
+  border:solid white 0.5vw;
+  z-index:999;
+  padding-bottom: 20vh;
+  overflow: scroll;
+}
+
+
+.introduce{
+   width:90vw;
+  height:83vh;
+  position:absolute;
+  bottom:-1vh;
+  left:-1vw;
+  border:solid white 0.5vw;
+  z-index:10;
+}
+
+.text{
+    width:58vw;
+    font-family: 'Chivo', sans-serif;
+    font-size:1.2vw;
+    line-height: 40px;
+    position: absolute;
+    left:10vw;
+    top:55vh; 
+    color:white;
+}
+
+.project{
+    width:50vw;
+    font-family: 'Chivo', sans-serif;
+    font-size:1.5vw;
+    position:absolute;
+    color:white;
+    left:5vw;
+}
+.project1{top:20vh;}
+.project2{top:26vh;}
+.project3{top:32vh;}
+.project4{top:38vh;}
+.project5{top:44vh;}
+
+.project1:hover{color:black;cursor: pointer;}
+.project2:hover{color:black;cursor: pointer;}
+.project3:hover{color:black;cursor: pointer;}
+.project4:hover{color:black;cursor: pointer;}
+.project5:hover{color:black;cursor: pointer;}
+
+
