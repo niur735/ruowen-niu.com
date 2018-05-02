@@ -187,8 +187,8 @@ background-size:12vw 12vw;
 100%{background-image: url('../img/1-7.png');}}
 
 .circle {
-  width: 200px;
-  height: 200px;
+  width: 14vw;
+  height: 14vw;
   border-radius: 50%;
   background-color: white;
   position: absolute;
