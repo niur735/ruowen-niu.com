@@ -1,61 +1,14 @@
-$(".doll1").mouseover(function() {
-  $(".doll1").css('opacity','1');
-});
-$(".doll1").mouseout(function() {
-  $(".doll1").css('opacity','0');
-});
 
-$(".doll2").mouseover(function() {
-  $(".doll2").css('opacity','1');
-});
-$(".doll2").mouseout(function() {
-  $(".doll2").css('opacity','0');
-});
+"use strict";
+var mouseTails = document.getElementsByClassName("page-mouse-tail");
+document.addEventListener("mousemove", function(event) {
+  Array.prototype.forEach.call(mouseTails, function(tail) {
+    tail.style.left = event.pageX + "px";
+    tail.style.top = event.pageY + "px";
 
-$(".doll3").mouseover(function() {
-  $(".doll3").css('opacity','1');
-});
-$(".doll3").mouseout(function() {
-  $(".doll3").css('opacity','0');
-});
-
-$(".doll4").mouseover(function() {
-  $(".doll4").css('opacity','1');
-});
-$(".doll4").mouseout(function() {
-  $(".doll4").css('opacity','0');
-});
-
-$(".doll5").mouseover(function() {
-  $(".doll5").css('opacity','1');
-});
-$(".doll5").mouseout(function() {
-  $(".doll5").css('opacity','0');
-});
-
-$(".doll6").mouseover(function() {
-  $(".doll6").css('opacity','1');
-});
-$(".doll6").mouseout(function() {
-  $(".doll6").css('opacity','0');
-});
-
-$(".doll7").mouseover(function() {
-  $(".doll7").css('opacity','1');
-});
-$(".doll7").mouseout(function() {
-  $(".doll7").css('opacity','0');
-});
-
-
-
-
-
-$(document).bind("mousemove", function(e){
-    $(".circle").css({
-       left:  e.pageX - 100,
-       top:   e.pageY - 100
-    });
+    //   tail.style.left = (event.pageX - 110) + "px";
+    // tail.style.top = (event.pageY - 110)  + "px";
+  });
 });
 
 var number = $(this).data('button');
@@ -93,16 +46,16 @@ $(".open").click(function(){
 var light = false;
 $(".on").click(function(){
 if(light == false) {
- $(".curtain").css('background-color','white');
- $(".lead").html('Turn the light off!');
- $(".doll").css('opacity','1');
+ $(".tail").removeClass('page-mouse-tail')
   light = true;}  
   else{
- $(".curtain").css('background-color','black');
- $(".lead").html('Turn the light on!');
- $(".doll").css('opacity','0');
+ $(".tail").addClass('page-mouse-tail')
   light = false;}
 });
+
+
+
+
 
 
 

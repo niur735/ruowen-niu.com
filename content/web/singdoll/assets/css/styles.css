@@ -1,3 +1,15 @@
+
+.page-mouse-tail {
+  position: fixed;
+  float: left;
+  width: 12vw;
+  /* for demo */
+  height: 12vw;
+  border-radius: 100%;
+  box-shadow: 0 0 0px 9999px black;
+  z-index: 11111;
+}
+
 .on{
    height: 25vh;
   width:1vw;
@@ -39,16 +51,12 @@ z-index:100;
 background-color: none;
 }
 
-.curtain{background-color:black;
-  z-index:-10;
-  width:100vw;
-  height:100vh;
-  position: absolute;}
 
 .doll{position:absolute;
   width:12vw; 
   height:12vw;  
-  margin-top:20vh;}
+  margin-top:20vh;
+}
 
 .dolla{left:6vw;}
 .dollb{left:19vw;}
@@ -62,8 +70,7 @@ background-color: none;
   width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+  background-image: url('../img/1a.png');
 }
 
 
@@ -71,8 +78,8 @@ background-color: none;
   width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+  background-image: url('../img/2a.png');
+
 }
 
 
@@ -80,16 +87,14 @@ background-color: none;
   width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+background-image: url('../img/3a.png');
 }
 
 .doll4{
   width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+background-image: url('../img/4a.png');
 }
 
 
@@ -98,15 +103,15 @@ background-color: none;
   width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;}
+background-image: url('../img/5a.png');
+}
 
 .doll6{  
     width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+background-image: url('../img/6a.png');
+
 }
 
 
@@ -115,62 +120,62 @@ background-color: none;
     width:12vw;
   height:12vw;
   background-size:12vw 12vw;
-  display: inline-block;
-  opacity: 0;
+background-image: url('../img/7a.png');
+
 }
 
 
 
 .ondolla {
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll1;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondollb{
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll2;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondollc {
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll3;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondolld {
+  z-index:11111;
 background-size:12vw 12vw;
    animation-name: doll4;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondolle {
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll5;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondollf {
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll6;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 .ondolli {
+  z-index:11111;
   background-size:12vw 12vw;
    animation-name: doll7;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
 
-.spotlight {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-  pointer-events: none;
-}
 @keyframes doll1{0%{background-image: url('../img/1a.png');}
 100%{background-image: url('../img/1-1.png');}}
 @keyframes doll2{0%{background-image: url('../img/2a.png');}
@@ -186,18 +191,5 @@ background-size:12vw 12vw;
 @keyframes doll7{0%{background-image: url('../img/7a.png');}
 100%{background-image: url('../img/1-7.png');}}
 
-.circle {
-  width: 14vw;
-  height: 14vw;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  float: left;
-  z-index: -1;
-}
 
-.lights {
-  background-color: white;
-  cursor: auto;
-}
 .hide{opacity:0;}
