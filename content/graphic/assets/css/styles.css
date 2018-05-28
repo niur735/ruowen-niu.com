@@ -1,2 +1,103 @@
+body{ background-color:#E8DCED;}
+.homepage{
+ 	font-family: 'Chivo', sans-serif;
+ 	font-size:3.2vw;
+ 	position:fixed;
+ 	color:white;
+ 	left:4vw;
+ 	top:6.5vh;
+}
+
+.homepage-out{
+  	width:25vw;
+  	height:15vh;
+  	position:fixed;
+  	top:-2vh;
+  	left:-2vw;
+  	border:solid white 0.5vw;
+
+  	z-index:10;
+}
+.homepage-out:hover{
+background-color:#C9B2D7;}
+
+.list{
+ 	width:25vw;
+ 	height: 60vh;
+ 	overflow: scroll;
+ 	position:fixed;
+ 	top:25vh;
+ 	left:-2vw;
+ 	border:solid white 0.5vw;
+}
+
+.title{
+	position: absolute;
+	left: 5.6vw;
+	top: 3vh;
+  	font-family: 'Chivo', sans-serif;
+ 	font-size:2.2vw;
+  	color: white;
+}
+
+.project:hover{color: black;
+cursor: pointer;}
+
+.content{
+	position: absolute;
+	width:93vw;
+	left:3vw;
+	height: 95vh;
+	bottom: 0vh;
+	border:solid white 0.5vw;
+	z-index: -1;
+	overflow: scroll;
+}
+
+.description{
+	color: white;
+	font-family: 'Chivo', sans-serif;
+ 	font-size:1.3vw;
+	position: fixed;
+	width:62.5vw;
+	height: 16.5vh;
+	top:4vh;
+	left: 24vw;
+	background-color:#E8DCED;
+	z-index: 111;
+	padding: 1.5vh 5vw 3vh 5vw;
+}
+
+.guide{
+	color: white;
+	font-family: 'Chivo', sans-serif;
+ 	font-size:2.3vw;
+	position: fixed;
+	top: 50vh;
+	left: 44vw;
+}
+img{
+	width:50%;
+	height: 50%;
+	position: relative;
+	top: 21vh;
+	left: 33vw;
+	border:solid white 0.5vw;
+	margin-bottom: 10vh;
+	display: table-column;
+}
+
+video{
+	position: relative;
+	top: 21vh;
+	left: 33vw;
+	border:solid white 0.5vw;
+	margin-bottom: 10vh;
+	display: table-column;
+}
+
+.hide{
+	display: none;
+}
 
 

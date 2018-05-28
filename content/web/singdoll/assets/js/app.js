@@ -1,5 +1,4 @@
 
-"use strict";
 var mouseTails = document.getElementsByClassName("page-mouse-tail");
 document.addEventListener("mousemove", function(event) {
   Array.prototype.forEach.call(mouseTails, function(tail) {

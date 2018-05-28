@@ -1,0 +1,100 @@
+body{ background-color:#B2D8E4;}
+.homepage{
+  font-family: 'Chivo', sans-serif;
+  font-size:3.2vw;
+  position:absolute;
+  color:white;
+  right:1vw;
+  bottom:0px;
+}
+
+.homepage-out{
+  width:20vw;
+  height:20vh;
+  position:absolute;
+  top:-2vh;
+  left:-2vw;
+  border:solid white 0.5vw;
+  z-index:10;
+}
+.homepage-out:hover{
+background-color:#B7EDFF;}
+
+.title{
+	font-family: 'Chivo', sans-serif;
+  font-size:3.2vw;
+  position:absolute;
+  color:white;
+  right:3vw;
+}
+
+.main{ width:93vw;
+  height:88vh;
+  position:absolute;
+  top:10vh;
+  left:7vw;
+  border:solid white 0.5vw;
+   overflow: scroll;
+}
+.introduction{
+	width:40vw;
+	font-family: 'Chivo', sans-serif;
+  	font-size:2vw;
+  	line-height: 40px;
+  	position:absolute;
+  	color:white;
+  	text-align: center;
+  	top:20vh;
+  	left:28vw;
+}
+
+.pdflink{
+	width:40vw;
+	font-family: 'Chivo', sans-serif;
+  	font-size:1.5vw;
+  	line-height: 40px;
+  	position:absolute;
+  	color:white;
+  	text-align: center;
+  	top:50vh;
+  	left:28vw;
+}
+
+.pdflink:hover{color:black; cursor: pointer;}
+
+.language{
+	width:40vw;
+	font-family: 'Chivo', sans-serif;
+  	font-size:1.5vw;
+  	line-height: 40px;
+  	position:absolute;
+  	color:white;
+  	text-align: center;
+  	top:55vh;
+  	left:28vw;
+}
+
+.EN:hover{color:black; cursor: pointer;}
+.CN:hover{color:black; cursor: pointer;}
+
+.cn{width:50vw;
+	position:absolute;
+	top:65vh;
+  	left:22.5vw;
+  	border:solid white 0.5vw;
+  	margin-bottom: 10vh;
+	}
+
+.en{width:50vw;
+	position:absolute;
+	top:65vh;
+  	left:22.5vw;
+  	border:solid white 0.5vw;
+  	margin-bottom: 10vh;
+	}
+
+.hide{display:none;}
+
+
+
+

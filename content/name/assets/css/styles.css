@@ -15,7 +15,6 @@ body{ background-color:#B2D8E4;}
   top:-2vh;
   left:-2vw;
   border:solid white 0.5vw;
-  background-color:#B2D8E4;
   z-index:10;
 }
 .homepage-out:hover{
@@ -35,7 +34,6 @@ background-color:#B7EDFF;}
   top:10vh;
   left:7vw;
   border:solid white 0.5vw;
-   z-index:10;
    overflow: scroll;
 }
 .introduction{

@@ -2,9 +2,9 @@
 .page-mouse-tail {
   position: fixed;
   float: left;
-  width: 12vw;
+  width: 10vw;
   /* for demo */
-  height: 12vw;
+  height: 10vw;
   border-radius: 100%;
   box-shadow: 0 0 0px 9999px black;
   z-index: 11111;

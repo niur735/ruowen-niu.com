@@ -21,8 +21,8 @@ body{ background-color:#FFE390;}
 .homepage-out:hover{
 background-color:#FFCA29;}
 
-.list{ width:70vw;
-  height:45vh;
+.list-outline{ width:70vw;
+  height:48vh;
   position:absolute;
   top:-2vh;
   right:-2vw;
@@ -62,16 +62,26 @@ background-color:#FFCA29;}
     color:white;
     left:5vw;
 }
-.project1{top:20vh;}
-.project2{top:26vh;}
-.project3{top:32vh;}
-.project4{top:38vh;}
-.project5{top:44vh;}
+
+.list{position: relative;
+  width:70vw;
+  height: 45vh;
+  left:5vw; 
+  top:10vh;
+  overflow: scroll;
+}
+.project1{top:12vh;}
+.project2{top:18vh;}
+.project3{top:24vh;}
+.project4{top:30vh;}
+.project5{top:36vh;}
+.project6{top:42vh;}
 
 .project1:hover{color:black;cursor: pointer;}
 .project2:hover{color:black;cursor: pointer;}
 .project3:hover{color:black;cursor: pointer;}
 .project4:hover{color:black;cursor: pointer;}
 .project5:hover{color:black;cursor: pointer;}
+.project6:hover{color:black;cursor: pointer;}
 
 
