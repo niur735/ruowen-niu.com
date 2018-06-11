@@ -29,7 +29,6 @@ background-color:#FFCA29;}
   border:solid white 0.5vw;
   z-index:999;
   padding-bottom: 20vh;
-  overflow: scroll;
 }
 
 
@@ -64,11 +63,11 @@ background-color:#FFCA29;}
 }
 
 .list{position: relative;
-  width:70vw;
-  height: 45vh;
+  width:64.4vw;
+  height: 56vh;
   left:5vw; 
   top:10vh;
-  overflow: scroll;
+
 }
 .project1{top:12vh;}
 .project2{top:18vh;}
