@@ -11,7 +11,9 @@ $('.project').hover(
         result = '<div>2018 May <br>A student will construct an interactive “toy” that receives input from a mouse or keyboard. The toy should either form a set of randomized outputs based on a standardized input, or precisely map expectations from input to output in a deterministic manner.</div>';
     } else if (button == 'time'){
         result = '<div>2017 December<br>A concept album about time.</div>';
-    } else {
+    }else if (button == 'tnsapp'){
+        result = '<div>2018 October<br>Re-design The Newschool app.</div>'; 
+    }else {
     	result = '<div>2018 March<br>A secret pattern that randomized outputs through the console.</div>';
     }
 $('.text').html(result);

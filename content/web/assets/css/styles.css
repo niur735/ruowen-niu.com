@@ -56,21 +56,32 @@ background-color:#D3DA4C;}
     width:40vw;
     font-family: 'Chivo', sans-serif;
     font-size:2vw;
-    position:absolute;
+    text-decoration: none;
+    position: relative;
     color:white;
     left:15vw;
+    top:20vh;
 }
+a{text-decoration: none;}
+.project-type{left:12vw;}
+/*.project-type1{top:20vh;}*/
+/*
+.project-type2{top:20vh;}
 .project1{top:20vh;}
 .project2{top:28vh;}
 .project3{top:36vh;}
 .project4{top:44vh;}
-.project5{top:52vh;}
+.project5{top:52vh;}*/
+
 
 .project1:hover{color:black;cursor: pointer;}
 .project2:hover{color:black;cursor: pointer;}
 .project3:hover{color:black;cursor: pointer;}
 .project4:hover{color:black;cursor: pointer;}
 .project5:hover{color:black;cursor: pointer;}
+.project6:hover{color:black;cursor: pointer;}
+
+
 
 
 
