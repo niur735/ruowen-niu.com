@@ -13,3 +13,7 @@ $(".arthover").mouseenter(function(){
 $(".arthover").mouseout(function(){
 	$(".art-out").removeClass("hovercolor")
 });
+
+$(".artalarm").click(function(){
+	alert("not finish yet!");
+})
