@@ -13,8 +13,12 @@ $('.project').hover(
         result = '<div>2017 December<br>A concept album about time.</div>';
     }else if (button == 'tnsapp'){
         result = '<div>2018 October<br>Re-design The Newschool app.</div>'; 
+    }else if (button == 'calculator'){
+        result = '<div>2019 March<br>A restaurant check splitting calculator that will figure out exactly what each person dining owes plus tax and tip</div>'; 
     }else {
     	result = '<div>2018 March<br>A secret pattern that randomized outputs through the console.</div>';
     }
 $('.text').html(result);
 });
+
+

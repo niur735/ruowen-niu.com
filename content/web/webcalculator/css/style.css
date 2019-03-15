@@ -1,0 +1,95 @@
+
+.bill{
+    position: absolute;
+    left:5vw;
+    top:10px;
+    width: 30vw;
+    height: 100vh;
+    font-family: futura;
+    font-size: 16pt;
+    padding-top: 20px;
+
+}
+.menu{
+    position: absolute;
+    right: 15vw;
+    top:38px;
+    width: 40vw;
+    height: 100vh;
+    font-family: futura;
+    font-size: 12pt;
+
+}
+.order{
+    padding: 30px 40px 15px 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px dashed black;
+}
+
+
+.background{
+    background-color: black;
+    color: white;
+}
+
+.item{display: inline-block;
+    margin: 40px 30px auto 30px;
+}
+
+.prices{text-align: center;}
+
+.orderitem{font-family: futura;
+font-size: 14pt;}
+
+
+.moneysign{font-family: futura;
+font-size: 10pt;
+display: inline-block;
+margin: 5px auto 20px 80px;}
+.orderprice{display: inline-block;}
+
+.customerlist{margin-top: 30px;}
+.list{
+    font-family: futura;
+    font-size: 14pt;
+    margin: 10px auto auto 20px;
+
+}
+
+.guide{
+line-height: 40px;
+}
+.title{font-family: futura;
+    font-size: 18pt;
+color:#660000;}
+
+input{width: 60px;
+height: 30px;
+font-family: futura;
+    font-size: 16pt}
+
+#myBtn{width: 60px;
+height: 30px;
+font-family: futura;
+    font-size: 12pt;}
+
+
+.cal{
+    font-family: futura;
+    font-size: 12pt;
+    color: white;
+    align-items: right;
+    text-align: right;
+    padding: 30px 0 0 0;
+    color
+}
+
+.guide2{font-size: 14pt;
+    line-height: 40px;
+    display: none;
+    color:grey;
+}
+
+
+
