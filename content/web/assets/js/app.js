@@ -15,6 +15,8 @@ $('.project').hover(
         result = '<div>2018 October<br>Re-design The Newschool app.</div>'; 
     }else if (button == 'calculator'){
         result = '<div>2019 March<br>A restaurant check splitting calculator that will figure out exactly what each person dining owes plus tax and tip</div>'; 
+    }else if (button == 'gifto'){
+        result = '<div>2018 December<br>A self-designed app for helping people to remind others birthday and find the gift that fits each person</div>'; 
     }else {
     	result = '<div>2018 March<br>A secret pattern that randomized outputs through the console.</div>';
     }
