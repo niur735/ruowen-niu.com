@@ -1,4 +1,4 @@
-body{ background-color:#E8DCED;}
+body{ background-color:#E8DCED;font-weight: 700;overflow:hidden;}
 .homepage{
  	font-family: 'Chivo', sans-serif;
  	font-size:3.2vw;
@@ -23,12 +23,16 @@ background-color:#C9B2D7;}
 
 .list{
  	width:25vw;
- 	height: 60vh;
- 	overflow: scroll;
+ 	height: 73vh;
+ 	overflow: hidden;
  	position:fixed;
  	top:25vh;
  	left:-2vw;
  	border:solid white 0.5vw;
+}
+
+.list:hover {
+  overflow-y: scroll;
 }
 
 .title{
@@ -36,7 +40,7 @@ background-color:#C9B2D7;}
 	left: 5.6vw;
 	top: 3vh;
   	font-family: 'Chivo', sans-serif;
- 	font-size:2.2vw;
+ 	font-size:2vw;
   	color: white;
 }
 
@@ -51,13 +55,17 @@ cursor: pointer;}
 	bottom: 0vh;
 	border:solid white 0.5vw;
 	z-index: -1;
-	overflow: scroll;
+	overflow: hidden;
+}
+.content:hover {
+  overflow-y: scroll;
 }
 
 .description{
 	color: white;
 	font-family: 'Chivo', sans-serif;
- 	font-size:1.3vw;
+ 	font-size:1.2vw;
+ 	font-weight: 400;
 	position: fixed;
 	width:62.5vw;
 	height: 16.5vh;
@@ -67,14 +75,28 @@ cursor: pointer;}
 	z-index: 111;
 	padding: 1.5vh 5vw 3vh 5vw;
 }
+.addon{color: white;
+	font-family: 'Chivo', sans-serif;
+ 	font-size:1.2vw;
+ 	font-weight: 400;
+ 	width:42.5vw;
+	height: 16.5vh;
+	position: relative;
+	top:16vh;
+	left:34vw;
+}
+
+.date{font-weight: 700;}
+.typetitle{font-size:1.2vw;}
 
 .guide{
 	color: white;
 	font-family: 'Chivo', sans-serif;
- 	font-size:2.3vw;
+ 	font-size:1.8vw;
 	position: fixed;
 	top: 50vh;
-	left: 44vw;
+	left: 48vw;
+	font-weight: 400;
 }
 img{
 	width:50%;

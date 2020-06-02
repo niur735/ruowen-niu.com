@@ -1,4 +1,4 @@
-body{background-color:#FFEAEA;}
+body{background-color:#FFDBDB;}
 *{margin:0;}
 
 .space{width:28vw;
@@ -19,9 +19,9 @@ top:19vh;
 border:solid white 0.5vw;
 }
 .arthover:hover{
-background-color:#FFD4D4;}
+background-color:#FFCBCB;}
 
-.hovercolor{background-color:#FFD4D4;}
+.hovercolor{background-color:#FFCBCB;}
 
 .name{
   font-family: 'Chivo', sans-serif;
@@ -39,11 +39,11 @@ background-color:#FFD4D4;}
   top:-2vh;
   left:62.5vw;
   border:solid white 0.5vw;
-  background-color:#FFEAEA;
+  background-color:#FFDBDB;
   z-index:10;
 }
 .name-out:hover{
-background-color:#FFD4D4;}
+background-color:#FFCBCB;}
 
 .research{
   font-family: 'Chivo', sans-serif;
@@ -62,10 +62,10 @@ background-color:#FFD4D4;}
   left:48vw;
   border:solid white 0.5vw;
   z-index:10;
-   background-color:#FFEAEA;
+   background-color:#FFDBDB;
 }
 .research-out:hover{
-background-color:#FFD4D4;}
+background-color:#FFCBCB;}
 
 .web{
   font-family: 'Chivo', sans-serif;
@@ -83,11 +83,11 @@ background-color:#FFD4D4;}
   left:-1vw;
   top:-2vh;
   border:solid white 0.5vw;
-   background-color:#FFEAEA;
+   background-color:#FFDBDB;
   z-index:5;
 }
 .web-out:hover{
-background-color:#FFD4D4;
+background-color:#FFCBCB;
 z-index:-999;}
 
 .graphic{
@@ -105,11 +105,11 @@ z-index:-999;}
   left:34vw;
   top:46vh;
   border:solid white 0.5vw;
-  background-color:#FFEAEA;
+  background-color:#FFDBDB;
   z-index:5;
 }
 .graphic-out:hover{
-background-color:#FFD4D4;
+background-color:#FFCBCB;
 z-index:-999;}
 
 
@@ -131,5 +131,5 @@ z-index:-999;}
 z-index:-999;
 }
 .art-out:hover{
-background-color:#FFD4D4;
+background-color:#FFCBCB;
 z-index:-10;}

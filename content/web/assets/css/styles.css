@@ -1,4 +1,4 @@
-body{ background-color:#E3E88A;}
+body{ background-color:#E3E88A;font-weight: 700; overflow: hidden;}
 
 .homepage{
   font-family: 'Chivo', sans-serif;
@@ -21,7 +21,7 @@ body{ background-color:#E3E88A;}
 .homepage-out:hover{
 background-color:#D3DA4C;}
 
-.list{ width:93vw;
+.list{ width:95vw;
   height:72vh;
   position:absolute;
   bottom:8vh;
@@ -29,41 +29,53 @@ background-color:#D3DA4C;}
   border:solid white 0.5vw;
   z-index:10;
   padding-bottom: 20vh;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .introduce{
-   width:65vw;
+  width:67vw;
   height:36vh;
   position:absolute;
-  bottom:-1vh;
+  bottom:-2vh;
   left:35vw;
   border:solid white 0.5vw;
   z-index:10;
 }
 
+.date{
+font-weight: 700;
+font-size:1.4vw;
+}
+
 .text{
     width:58vw;
     font-family: 'Chivo', sans-serif;
-    font-size:1.4vw;
-    line-height: 40px;
+    font-weight: 400;
+    font-size:1.2vw;
+    line-height: 30px;
     position: absolute;
-    left:3vw;
+    left:2vw;
+    top:2vh;
     color:white;
 }
 
 .project{
     width:40vw;
     font-family: 'Chivo', sans-serif;
-    font-size:2vw;
+    font-size:1.6vw;
     text-decoration: none;
     position: relative;
     color:white;
-    left:15vw;
+    left:10vw;
     top:20vh;
+    line-height: 40px;
 }
 a{text-decoration: none;}
-.project-type{left:12vw;}
+
+.project-type{
+  left:8vw;
+  font-size:2vw;
+}
 /*.project-type1{top:20vh;}*/
 /*
 .project-type2{top:20vh;}
