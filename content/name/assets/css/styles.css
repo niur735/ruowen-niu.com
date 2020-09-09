@@ -55,18 +55,20 @@ background-color:#B7EDFF;}
 .resume{
   padding: 0;
   background:transparent;
-	width:8vw;
+ width:8vw;
   outline:none;
-	font-family: 'Chivo', sans-serif;
+ font-family: 'Chivo', sans-serif;
   font-size:1vw;
   line-height: 40px;
   color:white;
   text-align: center;
-  border-color: white;
-  border-width: 0.2vw;
   position: absolute;
   left:9vw;
   top:60vh;
+  border: none;
+  border: 0.2vw solid white;
+
+
 
 }
 
